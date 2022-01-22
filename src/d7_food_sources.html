@@ -51,16 +51,34 @@
     Create a popup, specify its options 
     and properties, and add it to the map.
     */
-   const businessName = feature.properties.hasOwnProperty("DBA Name") ?
+    function toTitleCase(str) {
+      return str.replace(
+        /\w\S*/g,
+        function(txt) {
+          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+      );
+    }
+   let businessName = feature.properties.hasOwnProperty("DBA Name") ?
                             feature.properties["DBA Name"] : feature.properties["DBA"];
-   const storeType = (feature.properties["grocery"] == "fastfood") ? "Top 50 American fast-food chain restaurant" : 
-                        (feature.properties["grocery"] == "FALSE") ? "Convenience store" :
+   businessName = toTitleCase(businessName);
+
+   const storeType = (feature.properties["grocery"] == "fastfood") ? "Top 50 American fast-food chains" : 
+                        (feature.properties["grocery"] == "FALSE") ? "Convenience stores and delis" :
                             "Grocery store";
-    
+   let address = (feature.properties.hasOwnProperty("BUILDING") && feature.properties.hasOwnProperty("STREET")) ?
+                        (feature.properties["BUILDING"] + " " + feature.properties["STREET"]) :
+                        (feature.properties["Street Number"] + " " + feature.properties["Street Name"]);
+   address = toTitleCase(address);
+
+   const zipcode = (feature.properties.hasOwnProperty("ZIPCODE")) ? 
+                        feature.properties["ZIPCODE"] : feature.properties["Zip Code"];
    const popup = new mapboxgl.Popup({ offset: [0, -15] })
         .setLngLat(feature.geometry.coordinates)
         .setHTML(
-            `<h3>${businessName}</h3><p>${storeType}</p>`
+            `<h3>${businessName}</h3>
+            <p><b>Category: </b>${storeType}</p>
+            <p><b>Address: </b>${address}, New York, NY ${zipcode}</p>`
         )
         .addTo(map);
     });
