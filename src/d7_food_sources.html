@@ -8,14 +8,15 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
     <style>
       body { 
-        margin: 0; 
-        padding: 0; 
+        margin: 10; 
+        padding: 10; 
       }
       #map { 
-        position: absolute; 
-        top: 0; 
-        bottom: 0; 
-        width: 100%; 
+        position: relative;
+        height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
       }
     </style>
   </head>
@@ -28,8 +29,8 @@
       container: 'map',
       // Replace YOUR_STYLE_URL with your style URL.
       style: 'mapbox://styles/eleanorl/ckyoyvqz504k315pjrql2x9o9', 
-      center: [-87.661557, 41.893748],
-      zoom: 10.7
+      center: [-73.95, 40.81],
+      zoom: 12
     });
 
     /* 

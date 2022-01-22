@@ -10,11 +10,7 @@
         "body": [
           {
             "type": "text",
-            "value": "Leadin. Something to draw the reader in. Graphics is the only visuals and words desk at the Spectator."
-          },
-          {
-            "type": "text",
-            "value": "Nutgraf. What is the meat of the story? Why does this matter?"
+            "value": "[Main article text goes here]"
           },
           {
             "type": "graphic",
@@ -28,16 +24,20 @@
           },
           {
             "type": "text",
-            "value": "<i>Adina Cazacu De Luca is a Graphics reporter. She can be contacted at </i><a href=\"mailto:adina.cazacu.de.luca@columbiaspectator.com\"><i>adina.cazacu.de.luca@columbiaspectator.com</i></a><i>.</i>"
+            "value": "<i>Adina Cazacu-De Luca is a Graphics reporter. She can be contacted at </i><a href=\"mailto:adina.cazacu.de.luca@columbiaspectator.com\"><i>adina.cazacu.de.luca@columbiaspectator.com</i></a><i>.</i>"
           },
           {
             "type": "text",
-            "value": "<i>Eleanor Lin is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:eleanor.lin@columbiaspectator.com\"><i>eleanor.lin@columbiaspectator.com</i></a><i>.</i>"
+            "value": "<i>Eleanor Lin is a Graphics Deputy Editor. She can be contacted at </i><a href=\"mailto:eleanor.lin@columbiaspectator.com\"><i>eleanor.lin@columbiaspectator.com</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Andrew  Park is the Graphics Managing Editor. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
           }
         ],
         "headline": "[Title Relevant to - Food Availability in District 7]",
         "date": "[Month] [day], 2022",
-        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Esther-Sun/\">Esther Sun</a>\nData reporting by Adina Cazacu De Luca and <a href=\"https://www.columbiaspectator.com/contributors/Eleanor-Lin/\">Eleanor Lin</a>",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Esther-Sun/\">Esther Sun</a>\nGraphics and data reporting by <a href=\"https://www.columbiaspectator.com/contributors/Eleanor-Lin/\">Eleanor Lin</a>, <a href=\"https://www.columbiaspectator.com/contributors/Adina-Cazacu-De-Luca/\">Adina Cazacu-De Luca</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
