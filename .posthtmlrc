@@ -10,7 +10,7 @@
         "body": [
           {
             "type": "text",
-            "value": "Fresh apples, bell peppers, chicken breast, and healthy snacks, from almond butter to plantain chips, fill the shelves of Upper West Side grocery stores like the Whole Foods on 96th Street and the Trader Joe’s on 93rd. Meanwhile, just 40 blocks north, many shoppers walk out of stores like CTown and Key Foods with bags of Doritos and boxes of Lucky Charms."
+            "value": "Honeycrisp apples, bell peppers, organic chicken breast, and healthy snacks, from almond butter to plantain chips, fill the shelves of Upper West Side grocery stores like the Whole Foods on 96th Street and the Trader Joe’s on 93rd. Meanwhile, just 40 blocks north, many shoppers walk out of stores like CTown and Key Foods with bags of Doritos and boxes of Lucky Charms."
           },
           {
             "type": "text",
@@ -34,11 +34,11 @@
           },
           {
             "type": "text",
-            "value": "“It’s a lot of processed junk food,” Gant said when asked about the variety of products offered in his neighborhood stores. “Just not healthy choices… I’m coming here today, but I just got some little stuff. It’s not real food items, right? Juice and stuff like that. Eggs, sweet potatoes. But that’s it. I’m done. And the rest, I’ll save — for my vegetables and all — I’m going to kind of save for when I go to Whole Foods.”"
+            "value": "“It’s a lot of processed junk food,” Gant said when asked about the variety of products offered in his neighborhood stores. “Just not healthy choices… I’m coming here today, but I just got some little stuff. It’s not real food items, right? Juice and stuff like that. Eggs, sweet potatoes. But that’s it. I’m done. And the rest, I’ll save—for my vegetables and all—I’m going to kind of save for when I go to Whole Foods.”"
           },
           {
             "type": "text",
-            "value": "Indeed, Spectator Graphics analyzed data from the <a href=\"https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j\">New York City Department of Health and Mental Hygiene</a> and the <a href=\"https://data.ny.gov/Economic-Development/Retail-Food-Stores-Map/p2dn-xhaw\">New York Department of Agriculture and Markets</a> and found that there were only 88 grocery stores carrying fresh produce in City Council District 7, which stretches from 96th to 165th street. There are, however, 140 pharmacies, delis, and convenience stores and 30 stores from among the top 50 largest American fast-food chains in the same region. Spectator’s interactive mapping of these stores (which readers can explore below) also shows that food store distribution throughout District 7 is far from uniform, with stores mainly being concentrated along Broadway and Amsterdam Avenue."
+            "value": "Indeed, Spectator Graphics analyzed data from the <a href=\"https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j\">New York City Department of Health and Mental Hygiene</a> and the <a href=\"https://data.ny.gov/Economic-Development/Retail-Food-Stores-Map/p2dn-xhaw\">New York Department of Agriculture and Markets</a> and found that there were only 88 grocery stores carrying fresh produce in City Council District 7, which stretches from 96th to 165th street. There are, however, 140 pharmacies, delis, and convenience stores and 30 stores from among the top 50 largest American fast-food chains in the same region. Spectator’s interactive mapping of these stores, which readers can explore below, also shows that food store distribution throughout District 7 is far from uniform, with stores mainly being concentrated along Broadway and Amsterdam Avenue."
           },
           {
             "type": "graphic",
@@ -64,7 +64,7 @@
           },
           {
             "type": "text",
-            "value": "Due to the relative scarcity of stores that provide a substantial variety of healthy food, West Harlem residents looking to buy products like fresh produce and organic meant often have to commute farther to do their shopping. Gant, for example, has to take the subway to get to the Whole Foods on 96th Street and Columbus, though the commute takes about 20 minutes and he has to walk three blocks to the store once getting off the subway. He considers the journey worthwhile, however, due to “the variety and the quality of the vegetables and the meat” at the Whole Foods."
+            "value": "Due to the relative scarcity of stores that provide a substantial variety of healthy food, West Harlem residents looking to buy products like fresh produce and organic meat often have to commute farther to do their shopping. Gant, for example, has to take the subway to get to the Whole Foods on 96th Street and Columbus, though the commute takes about 20 minutes and he has to walk three blocks to the store once getting off the subway. He considers the journey worthwhile, however, due to “the variety and the quality of the vegetables and the meat” at the Whole Foods."
           },
           {
             "type": "text",
@@ -72,7 +72,7 @@
           },
           {
             "type": "text",
-            "value": "Izzy Falkovich, another resident of Hamilton Heights, expressed that, though stores in West Harlem do offer some selections of produce, there is a need for a greater variety of options. Like Gant, she also believes that high prices restrict residents from buying healthy food."
+            "value": "Izzy Falkovich, another resident of Hamilton Heights, expressed that, though stores in West Harlem do offer some selections of produce, there is a need for a greater variety of options. Like Gant, she believes that high prices restrict residents from buying healthy food."
           },
           {
             "type": "text",
@@ -100,15 +100,15 @@
           },
           {
             "type": "text",
-            "value": "<b><i>Adina Cazacu-De Luca is a Graphics reporter. She can be contacted at </i></b><a href=\"mailto:adina.cazacu.de.luca@columbiaspectator.com\"><b><i>adina.cazacu.de.luca@columbiaspectator.com</i></b></a><b><i>.</i></b>"
+            "value": "<i>Adina Cazacu-De Luca is a Graphics reporter. She can be contacted at </i><a href=\"mailto:adina.cazacu.de.luca@columbiaspectator.com\"><b><i>adina.cazacu.de.luca@columbiaspectator.com</i></b></a><b><i>.</i></b>"
           },
           {
             "type": "text",
-            "value": "<b><i>Eleanor Lin is a Graphics Deputy Editor. She can be contacted at </i></b><a href=\"mailto:eleanor.lin@columbiaspectator.com\"><b><i>eleanor.lin@columbiaspectator.com</i></b></a><b><i>.</i></b>"
+            "value": "<i>Eleanor Lin is a Graphics Deputy Editor. She can be contacted at </i><a href=\"mailto:eleanor.lin@columbiaspectator.com\"><b><i>eleanor.lin@columbiaspectator.com</i></b></a><b><i>.</i></b>"
           },
           {
             "type": "text",
-            "value": "<b><i>Andrew  Park is the Graphics Managing Editor. He can be contacted at </i></b><a href=\"mailto:andrew.park@columbiaspectator.com\"><b><i>andrew.park@columbiaspectator.com</i></b></a><b><i>.</i></b>"
+            "value": "<i>Andrew  Park is the Graphics Editor. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><b><i>andrew.park@columbiaspectator.com</i></b></a><b><i>.</i></b>"
           }
         ],
         "headline": "[Title Relevant to - Food Availability in District 7]",
