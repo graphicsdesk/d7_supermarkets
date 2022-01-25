@@ -6,6 +6,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
       body { 
         margin: 10; 
@@ -28,15 +31,14 @@
         border-radius: 3px;
         bottom: 30px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font: 12px/20px 'Roboto', Arial, Helvetica, sans-serif;
         padding: 10px;
-        position: absolute;
+        position: static;
         right: 10px;
         z-index: 1;
-      }
-        
-      .legend h4 {
-        margin: 0 0 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
       }
         
       .legend div span {
@@ -48,15 +50,23 @@
       }
       </style>
     
-    <div id='map'></div>
-
     <div id="store-legend" class="legend">
-      <h4>Store Types</h4>
+      <h1>Food Sources in New York City Council District 7</h1>
+      
+      <p>Click the pins on the map below to see more information about each establishment.
+      </p>
+      
+      <div><b>Legend</b><div></div>
       <div><span style="background-color: #4fd50b"></span>Grocery stores</div>
       <div><span style="background-color: #f3e244"></span>Convenience stores, pharmacies, and delis</div>
       <div><span style="background-color: #e40c0c"></span>Top 50 American fast-food chains</div>
+  
+      <br>
+      Sources: NYC Department of Health and Mental Hygiene & NY State Department of Agriculture and Markets
     </div>
-       
+
+    <div id='map'></div>
+
     <script>
     // Setting up initial map view
     mapboxgl.accessToken = 'pk.eyJ1IjoiZWxlYW5vcmwiLCJhIjoiY2t5b3lraWEyMDR1ZjJybGVobjBwNDZ6aCJ9.zDa5cMUEyouVGsmMgf5vPA'; 
