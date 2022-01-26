@@ -73,7 +73,7 @@
     
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/eleanorl/ckyryujf408so16nmmgdh4ls5', 
+      style: 'mapbox://styles/eleanorl/ckyux4eb9000114la9xkyj8r4', 
       center: [-73.95, 40.81],
       zoom: 12
     });
@@ -85,7 +85,7 @@
     map.on('click', (event) => {
       // If the user clicked on one of your markers, get its information.
       const features = map.queryRenderedFeatures(event.point, {
-          layers: ['d7-supermarkets-final']
+          layers: ['d7_food_sources_final_1_25']
       });
       if (!features.length) {
           return;
