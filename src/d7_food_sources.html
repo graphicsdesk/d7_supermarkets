@@ -85,7 +85,7 @@
     map.on('click', (event) => {
       // If the user clicked on one of your markers, get its information.
       const features = map.queryRenderedFeatures(event.point, {
-          layers: ['d7_food_sources_final_1_25']
+          layers: ['d7-food-sources-final-copy']
       });
       if (!features.length) {
           return;
