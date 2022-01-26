@@ -111,10 +111,12 @@
             "value": "<i>Andrew Park is the Graphics Editor. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
           }
         ],
-        "HED": "In West Harlem, healthy supermarkets are few and far between",
-        "Headline": "In West Harlem, healthy supermarkets are few and far between",
-        "date": "January 24, 2022",
-        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Esther-Sun/\">Esther Sun</a>\nGraphics and data reporting by <a href=\"https://www.columbiaspectator.com/contributors/Eleanor-Lin/\">Eleanor Lin</a>,  <a href=\"https://www.columbiaspectator.com/contributors/Adina-Cazacu-De-Luca/\">Adina Cazacu-De Luca</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+        "HED": "West Harlem residents face stark disparities in neighborhood access to healthy food",
+        "headline": "West Harlem residents face stark disparities in neighborhood access to healthy food",
+        "date": "January 25, 2022",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Esther-Sun/\">Esther Sun</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MVW3XEOMMNB35CGYE2P2L72WZQ.jpg",
+        "cover_caption": "Photo by Beatrice Shlansky",
         "footer": "See the datasets and analysis on our <a href=\"https://github.com/graphicsdesk/d7_supermarkets\">Github</a>.",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
